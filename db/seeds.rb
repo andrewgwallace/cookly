@@ -126,6 +126,7 @@ chefs = []
     name: Faker::Name.name,
     bio: Faker::Lorem.paragraphs(2).join(""),
     email: Faker::Internet.email,
+    password: "password123"
     })
 
   # Check to see if new chef's email was valid
@@ -138,7 +139,8 @@ end
 Chef.create({
   name: "#{Faker::Name.first_name} #{Faker::Name.last_name}",
   bio: Faker::Lorem.paragraphs(2).join(""),
-  email: "test@test.com"
+  email: "test@test.com",
+  password: "password123"
   })
 
 ingredients = [

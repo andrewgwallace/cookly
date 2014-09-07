@@ -45,3 +45,5 @@ group :development, :test do
   gem 'faker'
   gem 'awesome_print'
 end
+
+  gem 'bcrypt'
