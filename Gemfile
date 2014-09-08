@@ -37,4 +37,13 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+group :development, :test do
+  gem 'rspec'
+  gem 'rspec-rails', '~> 3.0.0'
+  gem 'pry-rails'
+  gem 'pry'
+  gem 'faker'
+  gem 'awesome_print'
+end
 
+  gem 'bcrypt'
